@@ -10,6 +10,9 @@ public class Driver
        World.setTrace(false);
        
        ColumnPicker baker = new ColumnPicker(1,1,Directions.North,-1);
-       baker.countColumns();
+       baker.turnLeft();
+       baker.turnLeft();
+       baker.turnLeft();
+       baker.countColumns(8);
     }
 }
